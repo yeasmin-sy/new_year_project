@@ -1,0 +1,383 @@
+/* Primary style */
+.inter-font_inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.background{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+.back_child{
+    width: 75px;
+    height: 7240px;
+  
+  background-color: hsla(0, 100%, 90%, 0.7);
+  
+}
+
+.border{
+  width: 80vw;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 120px;
+
+}
+/* style header */
+
+.banner{
+  height: 600px;
+  background-image: url("images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50px;
+  opacity: 0.9;
+  color: white;
+ 
+
+}
+
+.banner-title{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  
+}
+.greeting{
+  font-size: 32px;
+  font-weight: 400;
+
+}
+
+.celebration{
+  margin-top: -85px;
+  font-size: 68px;
+  font-weight: 800;
+}
+
+/* style main section */
+
+.offer{
+  width: 800px;
+  height: 800px;
+  margin-left: 400px;
+  margin-right: 398px;
+  text-align: center;
+ 
+}
+.offer h2{
+  font-size: 88px;
+  font-weight: 700px;
+  color: #FF0000;
+}
+.offer-content{
+  margin-top: -50px;
+  
+}
+.offer-title1{
+  font-size: 24px;
+  font-weight: 500px;
+  color: #FF0000;
+}
+.offer-title2{
+  margin-top: -50px;
+  font-size: 48px;
+  font-weight: 700px;
+}
+
+.party{
+  display: flex;
+  gap: 40px;
+  height: 600px;
+  background-image: url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.9;
+  color: white;
+}
+.party-content{
+  position: relative;
+  top: 20%;
+  left: 10%;
+  
+}
+.party-img{
+position: relative;
+left: 10%;
+top: 10%;
+}
+.party h3{
+  
+  font-size: 64px;
+  font-weight: 800px;
+}
+.party p{
+  font-size: 18px;
+  font-weight: 400px;
+  margin-top: -50px;
+}
+.party a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+.place{
+  border: 1px solid rgb(238, 205, 210) ;
+  filter: drop-shadow(10px 10px 10px rgb(225, 186, 193));
+  height: 480px;
+  text-align: center;
+ 
+  
+}
+.place-update{
+  font-size: 32px;
+  font-weight: 600;
+  color: #070211;
+  position: relative;
+  top: 20%;
+ 
+}
+ .place-update span{
+  color: red;
+ }
+.button-primary{
+  margin-top: 30px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.best-offer{
+  height: 480px;
+  display: flex;
+  gap: 210px;
+
+  
+}
+.description{
+  width: 395px;
+  height: 255px;
+  
+}
+
+.picture{
+  width: 250px;
+  height: 250px;
+  border: 10px solid red;
+  border-radius: 50%;
+
+}
+
+.picture img{
+ 
+  width: 80%;
+  height: 80%;
+  margin: 25px;
+
+}
+ 
+
+.short-description{
+  width: 275px;
+  height: 170px;
+  
+}
+
+.description h4{
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+ 
+}
+.description h2{
+  margin-top:-30px;
+  font-size: 46px;
+  font-weight: 800;
+}
+.short-description h2{
+  font-size:48px;
+  font-weight: bold;
+  color: red;
+}
+
+
+
+.holiday-sales{
+  max-height: 1120px;
+}
+
+.holiday-description{
+  text-align: center;
+}
+
+.holiday-description h2{
+  font-size: 72px;
+  font-weight: 800;
+  margin-top: -30px;
+}
+.holiday-description #red{
+  color: red;
+}
+.holiday-description p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #070211;
+  margin-top: -45px;
+}
+.discount{
+  position: relative;
+  left: 900px;
+  top: 330px;
+}
+.gift{
+  position: relative;
+  bottom: -100px;
+}
+
+.awesome-portfolio{
+  max-height: 1165px;
+  
+}
+
+.row-1{
+  display: flex;
+  gap: 12px;
+  opacity: 0.7;
+}
+.row-2{
+  display: flex;
+  gap: 12px;
+  opacity: 0.7;
+}
+
+.portfolio-description h5{
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+}
+
+.portfolio-description h3{
+  font-size: 48px;
+  font-weight: 800;
+  color:black;
+  margin-top: -40px;
+}
+.portfolio-description p{
+  font-size: 20px;
+  font-weight: 400;
+  color:#070211;
+  margin-top: -30px;
+}
+
+.subscribe{
+  text-align: center;
+  height: 500px;
+}
+
+.subscribe-description h3{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.subscribe-container{
+  margin-left: 330px;
+  margin-right: 335px;
+  margin-top:35px;
+  display: flex;
+  width: 600px;
+  height: 52px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  border-radius: 40px;
+  opacity: 0.8;
+}
+.email-container{
+  border: none;
+  margin: 12px;
+  
+}
+.email-container a{
+  color: #070211;
+}
+.subscribe-button{
+
+  width: 200px;
+  background-color: red;
+  margin-left: 300px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+ 
+}
+
+.subscribe-button button{
+  background-color: red;
+  border: none;
+  margin: 12px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer{
+  margin-top: 120px;
+  height: 610px;
+  background-color:#070211;
+  position: relative;
+  z-index: 10;
+  opacity: 0.9;
+  
+}
+
+.help-center{
+   color: white;
+   padding-top: 120px;
+   font-size: 24px;
+   font-weight: 500;
+  
+}
+
+.address{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-number{
+  margin-right: 125px;
+}
+
+.help-center hr{
+  opacity: 0.1;
+}
+
+.icon{
+   
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+.privacy{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
